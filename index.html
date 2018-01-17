@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <title>Slider VanillaJS</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:400,700" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <section id="slider" class="slider">
+        <div id="wrapper" class="slides-wrapper">
+            <div id="slide" class="slide" data-slide-id="0">
+                <img class="slide__img" src="https://images.unsplash.com/photo-1510279770292-4b34de9f5c23?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="slider-0">
+                <div class="slide__caption">
+                    <span class="slide__caption--title">Slide 1</span>
+                    <span class="slide__caption--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam assumenda nostrum quisquam voluptatem consectetur dolore, necessitatibus doloribus temporibus, enim animi adipisci architecto ipsum, labore corporis! Quaerat doloribus consequatur ex blanditiis?</span>
+                </div>
+            </div>
+            <div id="slide" class="slide" data-slide-id="1">
+                <img class="slide__img" src="https://images.unsplash.com/photo-1489532060612-9910b757430f?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="slider-1">
+                <div class="slide__caption">
+                    <span class="slide__caption--title">Slide 2</span>
+                    <span class="slide__caption--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam assumenda nostrum quisquam voluptatem consectetur dolore, necessitatibus doloribus temporibus, enim animi adipisci architecto ipsum, labore corporis! Quaerat doloribus consequatur ex blanditiis?</span>
+                </div>
+            </div>
+            <div id="slide" class="slide" data-slide-id="2">
+                <img class="slide__img" src="https://images.unsplash.com/photo-1511431426884-c1525fc26c8a?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="slider-2">
+                <div class="slide__caption">
+                    <span class="slide__caption--title">Slide 3</span>
+                    <span class="slide__caption--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam assumenda nostrum quisquam voluptatem consectetur dolore, necessitatibus doloribus temporibus, enim animi adipisci architecto ipsum, labore corporis! Quaerat doloribus consequatur ex blanditiis?</span>
+                </div>
+            </div>
+            <div id="slide" class="slide" data-slide-id="3">
+                <img class="slide__img" src="https://images.unsplash.com/photo-1510253782297-404c4da27214?auto=format&fit=crop&w=1351&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="slider-3">
+                <div class="slide__caption">
+                    <span class="slide__caption--title">Slide 4</span>
+                    <span class="slide__caption--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam assumenda nostrum quisquam voluptatem consectetur dolore, necessitatibus doloribus temporibus, enim animi adipisci architecto ipsum, labore corporis! Quaerat doloribus consequatur ex blanditiis?</span>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="slider__btn slider__btn--prev" data-slide="prev">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="slider__btn slider__btn--next" data-slide="next">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </a>
+
+        <div class="indicators">
+            <ul class="indicators__list">
+                <li class="indicators__item active" data-slide-to="0"></li>
+                <li class="indicators__item" data-slide-to="1"></li>
+                <li class="indicators__item" data-slide-to="2"></li>
+                <li class="indicators__item" data-slide-to="3"></li>
+            </ul>
+        </div>
+    </section>
+
+
+    <script src="js/script-compiled.js"></script>
+</body>
+
+</html>
