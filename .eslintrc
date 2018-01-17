@@ -1,0 +1,25 @@
+{
+    "env": {
+      "browser": true,
+      "jquery": true
+    },
+    "extends": "airbnb",
+    "rules": {
+      "no-console": 0,
+      "no-unused-vars": 1,
+      "linebreak-style":0,
+      "spaced-comment" : 0,
+      "indent":0,
+      "no-use-before-define": 1,
+      "func-names": 0,
+      "max-len":0,
+      "comma-dangle":1,
+      "eol-last":0,
+      "semi": 1,
+      "class-methods-use-this":1,
+      "arrow-body-style":0,
+      "semi-spacing": 0,
+      "no-useless-escape": 1
+    }
+  }
+  
